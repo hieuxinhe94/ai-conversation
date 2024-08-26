@@ -11,7 +11,7 @@ const regular = import('@pmndrs/assets/fonts/inter_regular.woff')
 const medium = import('@pmndrs/assets/fonts/inter_medium.woff')
 
 export const App = () => (
-  <Canvas flat camera={{ fov: 75, position: [0, 0, 20], zoom: {} }}
+  <Canvas flat camera={{ fov: 75, position: [0, 0, 20], }}
     onScroll={() => { }}
     
     eventSource={document.getElementById('root')} eventPrefix="client">
